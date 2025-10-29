@@ -31,7 +31,7 @@ This site is configured for automatic deployment on Netlify.
 
 - **Build command**: `hugo --gc --minify`
 - **Publish directory**: `public`
-- **Hugo version**: 0.128.0 (configured in netlify.toml)
+- **Hugo version**: latest (automatically uses the most recent Hugo version available on Netlify)
 
 ### Updating Base URL
 

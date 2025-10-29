@@ -3,9 +3,8 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.128.0"
+  HUGO_VERSION = "latest"
   NODE_VERSION = "20"
-  # Use extended Hugo version for better features
 
 [[redirects]]
   from = "/*"
