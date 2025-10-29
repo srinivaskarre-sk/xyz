@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Srinivas'
+theme = "PaperMod"
+[params]
+    description = "Software Developer Portfolio"
+    author = "Your Name"
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+    
+    [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/yourusername"
