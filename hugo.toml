@@ -2,13 +2,57 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Srinivas'
 theme = "PaperMod"
+
+# Main sections for posts (journaling/notes)
 [params]
-    description = "Software Developer Portfolio"
-    author = "Your Name"
+    # Profile Mode Configuration - Portfolio Homepage
+    [params.profileMode]
+        enabled = true
+        title = "Srinivas"
+        subtitle = "Software Developer | Building and Learning"
+        # imageUrl = "images/profile.jpg"  # Add your profile image to static/images/
+        # imageWidth = 200
+        # imageHeight = 200
+        
+        # Optional action buttons
+        [[params.profileMode.buttons]]
+            name = "Blog"
+            url = "/posts"
+        [[params.profileMode.buttons]]
+            name = "About"
+            url = "/about"
+    
+    description = "Software Developer Portfolio - Thoughts, Notes & Journaling"
+    author = "Srinivas"
+    
+    # Social Icons (will appear on homepage)
     [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/yourusername"
+        name = "github"
+        url = "https://github.com/yourusername"
+        title = "GitHub"
     
     [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://linkedin.com/in/yourusername"
+        name = "linkedin"
+        url = "https://linkedin.com/in/yourusername"
+        title = "LinkedIn"
+    
+    # Main sections for content listing (where posts will be displayed)
+    mainSections = ["posts"]
+
+# Navigation menu
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 10
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 20
+    [[menu.main]]
+        identifier = "search"
+        name = "Search"
+        url = "/search/"
+        weight = 30
