@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Srinivas</title>
-    <link>http://localhost:1313/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Srinivas</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding Hugo Static Site Generation</title>
-      <link>http://localhost:1313/posts/sample-tech-note/</link>
+      <link>//localhost:1313/posts/sample-tech-note/</link>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/sample-tech-note/</guid>
+      <guid>//localhost:1313/posts/sample-tech-note/</guid>
       <description>Notes on building static sites with Hugo for personal blogging and documentation</description>
     </item>
     <item>
       <title>Welcome to My Tech Journal</title>
-      <link>http://localhost:1313/posts/welcome/</link>
+      <link>//localhost:1313/posts/welcome/</link>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
+      <guid>//localhost:1313/posts/welcome/</guid>
       <description>Starting my journey of documenting thoughts, learnings, and insights</description>
     </item>
   </channel>

@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'Srinivas'
 theme = "PaperMod"
@@ -28,12 +28,12 @@ theme = "PaperMod"
     # Social Icons (will appear on homepage)
     [[params.socialIcons]]
         name = "github"
-        url = "https://github.com/yourusername"
+        url = "https://github.com/srinivaskarre-sk"
         title = "GitHub"
     
     [[params.socialIcons]]
         name = "linkedin"
-        url = "https://linkedin.com/in/yourusername"
+        url = "https://linkedin.com/in/srinivaskarre"
         title = "LinkedIn"
     
     # Main sections for content listing (where posts will be displayed)
@@ -45,14 +45,9 @@ theme = "PaperMod"
         identifier = "posts"
         name = "Posts"
         url = "/posts/"
-        weight = 10
-    [[menu.main]]
-        identifier = "tags"
-        name = "Tags"
-        url = "/tags/"
         weight = 20
     [[menu.main]]
-        identifier = "search"
-        name = "Search"
-        url = "/search/"
-        weight = 30
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 10
